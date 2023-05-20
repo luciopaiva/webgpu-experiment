@@ -6,7 +6,7 @@ My first experiment with WebGPU.
 I am doing my studies based on:
 
 1. [Jason Tsorlinis' projects](https://github.com/jtsorlinis?tab=repositories), namely [BoidsWebGPU](https://github.com/jtsorlinis/BoidsWebGPU), [nBodyWebGPU](https://github.com/jtsorlinis/nBodyWebGPU) and [WebGPUvsCPU](https://github.com/jtsorlinis/WebGPUvsCPU)
-2. I also followed the tutorial [here](https://surma.dev/things/webgpu/index.html)
+2. I also followed the tutorial [here](https://surma.dev/things/webgpu/index.html) ([offline version](surma%20-%20all%20of%20the%20cores%20none%20of%20the%20canvas.pdf))
 3. I am interested in reading the Babylon.js examples, specially [this one](https://webgpu.github.io/webgpu-samples/samples/gameOfLife)
 
 I initially thought reference 1 was the best one to start with, and I think it still is, but the problem I saw was that Babylon.js is apparently not really helping a lot. There's still a lot of code to write to be able to get the compute shader running.
