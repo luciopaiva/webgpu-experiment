@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "typeRoots": ["./node_modules/@webgpu/types"],
+    "types": ["babylonjs"],
     "target": "ES2020",
     "useDefineForClassFields": true,
     "module": "ESNext",
