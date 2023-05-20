@@ -19,5 +19,6 @@ fn rand_pcg() -> f32 {
 @compute @workgroup_size(8, 8, 1)
 fn main(@builtin(global_invocation_id) id : vec3<u32>) {
     rngState = params.rngSeed + id.y * params.texWidth + id.x;
-    textureStore(tex, id.xy, vec4<f32>(rand_pcg(),rand_pcg(),rand_pcg(),0));
+    var rnd = rand_pcg();
+    textureStore(tex, id.xy, vec4<f32>(rnd, rnd, rnd, 0));
 }
