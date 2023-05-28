@@ -15,6 +15,10 @@ Reference 2 is interesting because it covers the raw use of the WebGPU API, but 
 
 Reference 3 may be interesting to understand how we can directly write to the screen using render shaders. So far the [only example]([WebGPUvsCPU](https://github.com/jtsorlinis/WebGPUvsCPU)) I saw computes the data using a compute shader, stores it into a texture buffer and then applies the texture to a quad, finally displaying it via an orthographic camera in Babylon.js. If you're just going to paint pixels on the screen like that example does, you could just use a fragment shader for that, I believe.
 
+WGSL language reference: https://www.w3.org/TR/WGSL
+
+
+
 ## Setup
 
     nvm i
